@@ -1,0 +1,3 @@
+aws cloudformation deploy --template-file Cloudfront-S3-template.yml --stack-name boxerstack
+aws s3 ls
+aws s3 cp shakurstevenson.jpg s3://cf-simple-s3-origin-boxerstack-517654099622
